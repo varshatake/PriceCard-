@@ -1,0 +1,161 @@
+*{
+margin: 0px;
+padding: 0px;
+list-style: none;
+font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: azure;
+}
+.main {
+    border-radius: 10px;
+    border-color: black;
+}
+.tick{
+    color: green;
+}
+.cross{
+    color: red;
+}
+
+.firstcard {
+    width:13%;
+    border-radius: 15px;
+    border-color: black;
+    background-color: lightgrey;
+    margin-top: 10%;
+    margin-left: 20%;
+   
+}
+
+.Firstheading {
+    background-color: #2F4F4F;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.firstlist{
+    width: 60%;
+    position: relative;
+    left: 70px;
+    margin-top: 20px;
+    font-size: large;
+    line-height: 1.5;
+}
+
+.price{
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.last{
+    text-align: center;
+    /* background-color: cadetblue; */
+    border-radius: 5px;
+}
+.buy{
+    padding: 5px;
+    background-color: darkcyan;
+    color:white;
+    font-size: x-large;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+.secondcard{
+    width:13%;
+    border-radius: 15px;
+    border-color: black;
+    background-color: lightgrey;
+    display: inline-block;
+    position: relative;
+    left: 39%;
+    position: absolute;
+    top: 15%;  
+}
+
+.secondheading{
+    background-color: red;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.secondlist{
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    margin-top: 20px;
+    font-size: large;
+    line-height: 1.5;
+}
+
+.priceTwo{
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.secondcarButton{
+    text-align: center;
+    /* background-color: cadetblue; */
+    border-radius: 5px;
+}
+/* /////////////////////////////////////////////////////////////////// */
+.thirdcard{
+    width:13%;
+    border-radius: 15px;
+    border-color: black;
+    background-color: lightgrey;
+    display: inline-block;
+    position: relative;
+    left: 58%;
+    position: absolute;
+    top: 22%;  
+}
+
+.thirdheading{
+    background-color: #2F4F4F;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.thirdlist{
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    margin-top: 20px;
+    font-size: large;
+    line-height: 5px;
+    line-height: 1.5;
+}
+
+.priceThree{
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.thirdcarButton{
+    text-align: center;
+    /* background-color: cadetblue; */
+    border-radius: 5px;
+}
